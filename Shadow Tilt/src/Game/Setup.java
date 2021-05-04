@@ -1025,10 +1025,10 @@ public class Setup extends BasicGame
 		totalDeaths = PropertyValues.getTotalDeaths("deaths", 0);
 
 		appgc.setDisplayMode(screenWidth, screenHeight, fullScreenMode);
-	    appgc.setAlwaysRender(true);
-	    String[] icons = {"images/Icons/icon_32.png", "images/Icons/icon_24.png", "images/Icons/icon_16.png", "images/Icons/icon_128.png"};
-	    appgc.setIcons(icons);
-	    appgc.start();
+	    	appgc.setAlwaysRender(true);
+	    	String[] icons = {"images/Icons/icon_32.png", "images/Icons/icon_24.png", "images/Icons/icon_16.png", "images/Icons/icon_128.png"};
+	    	appgc.setIcons(icons);
+	    	appgc.start();
 	}
 	private void playerDeathAnimation(int delta) throws SlickException
 	{
